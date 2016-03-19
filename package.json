@@ -10,6 +10,8 @@
     "push": "./push.sh"
   },
   "dependencies": {
+    "galileo-io": "^0.9.4",
+    "johnny-five": "^0.9.34",
     "mraa": "0.9.6",
     "jsupm_i2clcd": "0.4.1"
   },
