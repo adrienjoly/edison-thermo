@@ -1,0 +1,66 @@
+{
+  "project": {
+    "projectSettingsVersion": "2.0.0",
+    "initialAutoPluginCount": 0,
+    "currentBuildConfiguration": "Android",
+    "projectFiles": {},
+    "projectDirectories": {}
+  },
+  "iot-tab": {
+    "fileStatus": {
+      "LcdDisplay.js": {
+        "previousModTime": 1442138464000,
+        "modified": 1442138464000,
+        "seen": true,
+        "name": "LcdDisplay.js"
+      },
+      "TemperatureSensor.js": {
+        "previousModTime": 1442076065000,
+        "modified": 1442076065000,
+        "seen": true,
+        "name": "TemperatureSensor.js"
+      },
+      "main.js": {
+        "previousModTime": 1458399300000,
+        "modified": 1458399300000,
+        "seen": true,
+        "name": "main.js"
+      },
+      "package.json": {
+        "previousModTime": 1458397758000,
+        "modified": 1458397758000,
+        "seen": true,
+        "name": "package.json"
+      },
+      "thermometre.xdk": {
+        "previousModTime": 1458397965000,
+        "modified": 1458397965000,
+        "seen": true,
+        "name": "thermometre.xdk"
+      },
+      "thermometre.xdke": {
+        "previousModTime": 1458399162000,
+        "modified": 1458399162000,
+        "seen": true,
+        "name": "thermometre.xdke"
+      },
+      "xdk/project-info.json": {
+        "previousModTime": 1458397965000,
+        "modified": 1458397965000,
+        "seen": true,
+        "name": "xdk/project-info.json"
+      },
+      "push.sh": {
+        "previousModTime": 1458399048000,
+        "modified": 1458399048000,
+        "seen": true,
+        "name": "push.sh"
+      }
+    },
+    "boardFileStatus": {
+      "main.js": {
+        "previousModTime": 1458399304680
+      }
+    }
+  }
+}
