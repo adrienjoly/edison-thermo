@@ -1,0 +1,18 @@
+[Unit]
+Description=thermometre
+After=xdk-daemon.service
+Requires=xdk-daemon.service
+
+[Service]
+TimeoutStartSec=20
+ExecStart=/usr/bin/node /home/root/thermometre/main.js
+Restart=on-failure
+RestartSec=10
+WorkingDirectory=/home/root/thermometre/
+Environment="NODE_PATH=/usr/lib/node_modules/"
+Environment="NODE_ENV=production"
+Environment="AVAHI_COMPAT_NOWARN=1"
+Environment="HOME=/home/root"
+
+[Install]
+WantedBy=multi-user.target
