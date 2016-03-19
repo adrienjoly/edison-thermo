@@ -22,7 +22,7 @@ In this section, I'm keep some instructions to remember how to make it work agai
   - logging in as root
   - keeping these shortcuts in mind:
     - Cancel/exit a command: <kbd>Ctrl-C</kbd>
-    - Disconnect: <kbd>Ctrl+A</kbd> then <kbd>Ctrl+\</kbd>
+    - Disconnect: <kbd>Ctrl+A</kbd> then <kbd>Ctrl+\\</kbd>
 3. Initialize Edison's connectivity
   - full setup: `configure_edison --setup`
   - only wifi: `configure_edison --wifi`
