@@ -17,18 +17,16 @@ In this section, I'm keep some instructions to remember how to make it work agai
 
 1. Plug both USB cables between Edison and the computer
 2. Connect to Edison's terminal by
-
-  a. finding its “usbserial” device name: `ls /dev/tty.*`
-  b. connecting to the device: `screen /dev/tty.usbserial-A102GW3T 115200`
-  c. logging in as root
-  d. keeping these shortcuts in mind:
-    - Cancel/exit a command: <kbd>Ctrl-C<kbd>
-    - Disconnect: <kbd>Ctrl+A<kbd> then <kbd>Ctrl+\<kbd>
-
+  - finding its “usbserial” device name: `ls /dev/tty.*`
+  - connecting to the device: `screen /dev/tty.usbserial-A102GW3T 115200`
+  - logging in as root
+  - keeping these shortcuts in mind:
+    - Cancel/exit a command: <kbd>Ctrl-C</kbd>
+    - Disconnect: <kbd>Ctrl+A</kbd> then <kbd>Ctrl+\</kbd>
 3. Initialize Edison's connectivity
-  a. full setup: `configure_edison --setup`
-  b. only wifi: `configure_edison --wifi`
-  c. get IP address: `configure_edison --showWiFiIP` or `ip a`
+  - full setup: `configure_edison --setup`
+  - only wifi: `configure_edison --wifi`
+  - get IP address: `configure_edison --showWiFiIP` or `ip a`
 4. After having setup a password for the root account, connect to ssh server through Wifi (*the second USB cable does not longer need to be plugged*):
   - `ssh root@edison.local`
 5. Push/download the program to Edison, from computer:
